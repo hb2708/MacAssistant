@@ -70,7 +70,6 @@ public class Assistant {
     }
 
     private func sendRequest(streamCall: AssistCall, request: AssistRequest, delegate: AssistantDelegate) throws {
-        try streamCall.sendMessage(request).map(<#T##callback: (Void) -> (NewValue)##(Void) -> (NewValue)#>)
         try streamCall.sendMessage(request) { err in
             if let error = err {
                 delegate.onError(error: error)

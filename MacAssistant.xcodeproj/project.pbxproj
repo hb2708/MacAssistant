@@ -19,12 +19,12 @@
 		584957AD218AD8DD0021602E /* AccountPreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584957AA218AD8DC0021602E /* AccountPreferenceView.xib */; };
 		584957AE218AD8DD0021602E /* AppearancePreferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584957AB218AD8DD0021602E /* AppearancePreferenceView.xib */; };
 		584957B0218ADD140021602E /* PreferenceDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584957AF218ADD140021602E /* PreferenceDefaultsKeys.swift */; };
-		585430F123B9D96E00E8C030 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F023B9D96E00E8C030 /* Alamofire */; };
-		585430F423B9DB2F00E8C030 /* Log in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F323B9DB2F00E8C030 /* Log */; };
-		585430F723B9DB9300E8C030 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F623B9DB9300E8C030 /* SwiftyUserDefaults */; };
-		585430FA23B9DC9200E8C030 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F923B9DC9200E8C030 /* SwiftyJSON */; };
-		585430FD23B9DD1E00E8C030 /* Preferences in Frameworks */ = {isa = PBXBuildFile; productRef = 585430FC23B9DD1E00E8C030 /* Preferences */; };
-		5854310023B9DE5000E8C030 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 585430FF23B9DE5000E8C030 /* GRPC */; };
+		585430F123B9D96E00E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F023B9D96E00E8C030 /* SwiftPackageProductDependency */; };
+		585430F423B9DB2F00E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F323B9DB2F00E8C030 /* SwiftPackageProductDependency */; };
+		585430F723B9DB9300E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F623B9DB9300E8C030 /* SwiftPackageProductDependency */; };
+		585430FA23B9DC9200E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430F923B9DC9200E8C030 /* SwiftPackageProductDependency */; };
+		585430FD23B9DD1E00E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430FC23B9DD1E00E8C030 /* SwiftPackageProductDependency */; };
+		5854310023B9DE5000E8C030 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 585430FF23B9DE5000E8C030 /* SwiftPackageProductDependency */; };
 		5854310C23B9E9C300E8C030 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5854310B23B9E9C300E8C030 /* AudioKit.framework */; };
 		5854310D23B9E9C300E8C030 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5854310B23B9E9C300E8C030 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5854310F23B9F25700E8C030 /* error_details.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5854310E23B9F25700E8C030 /* error_details.pb.swift */; };
@@ -117,13 +117,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585430F123B9D96E00E8C030 /* Alamofire in Frameworks */,
+				585430F123B9D96E00E8C030 /* BuildFile in Frameworks */,
 				5854310C23B9E9C300E8C030 /* AudioKit.framework in Frameworks */,
-				585430FD23B9DD1E00E8C030 /* Preferences in Frameworks */,
-				5854310023B9DE5000E8C030 /* GRPC in Frameworks */,
-				585430F723B9DB9300E8C030 /* SwiftyUserDefaults in Frameworks */,
-				585430FA23B9DC9200E8C030 /* SwiftyJSON in Frameworks */,
-				585430F423B9DB2F00E8C030 /* Log in Frameworks */,
+				585430FD23B9DD1E00E8C030 /* BuildFile in Frameworks */,
+				5854310023B9DE5000E8C030 /* BuildFile in Frameworks */,
+				585430F723B9DB9300E8C030 /* BuildFile in Frameworks */,
+				585430FA23B9DC9200E8C030 /* BuildFile in Frameworks */,
+				585430F423B9DB2F00E8C030 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,12 +323,12 @@
 			);
 			name = MacAssistant;
 			packageProductDependencies = (
-				585430F023B9D96E00E8C030 /* Alamofire */,
-				585430F323B9DB2F00E8C030 /* Log */,
-				585430F623B9DB9300E8C030 /* SwiftyUserDefaults */,
-				585430F923B9DC9200E8C030 /* SwiftyJSON */,
-				585430FC23B9DD1E00E8C030 /* Preferences */,
-				585430FF23B9DE5000E8C030 /* GRPC */,
+				585430F023B9D96E00E8C030 /* SwiftPackageProductDependency */,
+				585430F323B9DB2F00E8C030 /* SwiftPackageProductDependency */,
+				585430F623B9DB9300E8C030 /* SwiftPackageProductDependency */,
+				585430F923B9DC9200E8C030 /* SwiftPackageProductDependency */,
+				585430FC23B9DD1E00E8C030 /* SwiftPackageProductDependency */,
+				585430FF23B9DE5000E8C030 /* SwiftPackageProductDependency */,
 			);
 			productName = MacAssistant;
 			productReference = 588AAED02114299F0030AE52 /* MacAssistant.app */;
@@ -365,12 +365,12 @@
 			);
 			mainGroup = 588AAEC72114299F0030AE52;
 			packageReferences = (
-				585430EF23B9D96E00E8C030 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				585430F223B9DB2F00E8C030 /* XCRemoteSwiftPackageReference "Log" */,
-				585430F523B9DB9300E8C030 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
-				585430F823B9DC9200E8C030 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
-				585430FB23B9DD1E00E8C030 /* XCRemoteSwiftPackageReference "Preferences" */,
-				585430FE23B9DE5000E8C030 /* XCRemoteSwiftPackageReference "grpc-swift" */,
+				585430EF23B9D96E00E8C030 /* RemoteSwiftPackageReference */,
+				585430F223B9DB2F00E8C030 /* RemoteSwiftPackageReference */,
+				585430F523B9DB9300E8C030 /* RemoteSwiftPackageReference */,
+				585430F823B9DC9200E8C030 /* RemoteSwiftPackageReference */,
+				585430FB23B9DD1E00E8C030 /* RemoteSwiftPackageReference */,
+				585430FE23B9DE5000E8C030 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 588AAED12114299F0030AE52 /* Products */;
 			projectDirPath = "";
@@ -639,7 +639,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		585430EF23B9D96E00E8C030 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		585430EF23B9D96E00E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -647,7 +647,7 @@
 				minimumVersion = 4.9.1;
 			};
 		};
-		585430F223B9DB2F00E8C030 /* XCRemoteSwiftPackageReference "Log" */ = {
+		585430F223B9DB2F00E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/delba/Log";
 			requirement = {
@@ -655,7 +655,7 @@
 				kind = branch;
 			};
 		};
-		585430F523B9DB9300E8C030 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+		585430F523B9DB9300E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults";
 			requirement = {
@@ -663,7 +663,7 @@
 				version = "5.0.0-beta.5";
 			};
 		};
-		585430F823B9DC9200E8C030 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+		585430F823B9DC9200E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
 			requirement = {
@@ -671,7 +671,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		585430FB23B9DD1E00E8C030 /* XCRemoteSwiftPackageReference "Preferences" */ = {
+		585430FB23B9DD1E00E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/Preferences";
 			requirement = {
@@ -679,7 +679,7 @@
 				minimumVersion = 1.0.1;
 			};
 		};
-		585430FE23B9DE5000E8C030 /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+		585430FE23B9DE5000E8C030 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/grpc/grpc-swift.git";
 			requirement = {
@@ -690,34 +690,34 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		585430F023B9D96E00E8C030 /* Alamofire */ = {
+		585430F023B9D96E00E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430EF23B9D96E00E8C030 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 585430EF23B9D96E00E8C030 /* RemoteSwiftPackageReference */;
 			productName = Alamofire;
 		};
-		585430F323B9DB2F00E8C030 /* Log */ = {
+		585430F323B9DB2F00E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430F223B9DB2F00E8C030 /* XCRemoteSwiftPackageReference "Log" */;
+			package = 585430F223B9DB2F00E8C030 /* RemoteSwiftPackageReference */;
 			productName = Log;
 		};
-		585430F623B9DB9300E8C030 /* SwiftyUserDefaults */ = {
+		585430F623B9DB9300E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430F523B9DB9300E8C030 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			package = 585430F523B9DB9300E8C030 /* RemoteSwiftPackageReference */;
 			productName = SwiftyUserDefaults;
 		};
-		585430F923B9DC9200E8C030 /* SwiftyJSON */ = {
+		585430F923B9DC9200E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430F823B9DC9200E8C030 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			package = 585430F823B9DC9200E8C030 /* RemoteSwiftPackageReference */;
 			productName = SwiftyJSON;
 		};
-		585430FC23B9DD1E00E8C030 /* Preferences */ = {
+		585430FC23B9DD1E00E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430FB23B9DD1E00E8C030 /* XCRemoteSwiftPackageReference "Preferences" */;
+			package = 585430FB23B9DD1E00E8C030 /* RemoteSwiftPackageReference */;
 			productName = Preferences;
 		};
-		585430FF23B9DE5000E8C030 /* GRPC */ = {
+		585430FF23B9DE5000E8C030 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 585430FE23B9DE5000E8C030 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			package = 585430FE23B9DE5000E8C030 /* RemoteSwiftPackageReference */;
 			productName = GRPC;
 		};
 /* End XCSwiftPackageProductDependency section */
